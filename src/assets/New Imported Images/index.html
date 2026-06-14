@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdullahi Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/lugo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#projects">Project</a></li>
+            <i class="fa-solid fa-x" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p>
+            Artifical intelligence <br />
+            Machine Learning, and Computer vision Expert
+          </p>
+          <h1>
+            Hello I am <span>Muhammad</span> <br />
+            from Nigeria
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------About----------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/dattijoeditedpicture2.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Muhammad</h1>
+            <p>
+              Muhammad Abdullahi is a multi-talented professional in the field of web development, technical content writing, and entrepreneurship. With a passion for creating innovative digital solutions, Muhammad has established himself as a skilled web developer, proficient in
+              various programming languages and frameworks.
+            </p>
+            <div class="tab-title">
+              <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+              <div class="tab-links" onclick="opentab('experience')">Experience</div>
+              <div class="tab-links" onclick="opentab('education')">Education</div>
+              <div id="projects" class="tab-links" onclick="opentab('project')">Project</div>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UX/UI</span><br />Designing Web/App Interface</li>
+                <li><span>Web Development</span><br />Web/App Development</li>
+                <li><span>App Development</span><br />Building Android/IOS App</li>
+                <li><span>Technical Content Writer</span><br />writer and infographic designer.</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2021 - Current</span><br />UI/UX Design Training at ET</li>
+                <li><span>2019 - 2021</span><br />Team Lead at StarApp LLC.</li>
+                <li><span>2017 - 2019</span><br />UI/UX Design Executive at Coin Digital Ltd</li>
+                <li><span>2016 - 2017</span><br />Intern at ekart E-commerce</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2016</span><br />UI/UX Design at ET Institute</li>
+                <li><span>2016</span><br />MBA from MIT Bangalore</li>
+                <li><span>2014</span><br />BBA from ISM Bangalore</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="project">
+              <ul>
+                <li><span>Project 1</span><br /><a class="project" href="https://mychatbot-jan82tftrcjiyqcgmth5sa.streamlit.app/">PodCast Matcher</a></li>
+                <li><span>Project 2</span><br /><a class="project" href="https://podcast-matcher-k3bdfzgmzy8app5kv7rfgyk.streamlit.app/">My ChatBot</a></li>
+                <li><span>Project 3</span><br /><a class="project" href="https://mrwholesome01.github.io/Muhammads-snake-game/">Snake Game</a></li>
+                <li><span>project 4</span><br /><a class="project" href="https://mrwholesome01.github.io/Muhammads-Chess-game/">Chess Game</a></li>
+                <li><span>Project 5</span><br /><a class="project" href="https://mrwholesome01.github.io/Muhammads-checkers-game/">Checkers Game</a></li>
+                <li><span>Project 6</span><br /><a class="project" href="https://mrwholesome01.github.io/Muhammad-3D-Cube/">A rotating 3D Cube</a></li>
+                <li><span>Project 7</span><br /><a class="project" href="https://mrwholesome01.github.io/Muhammads-parrot-game/">A flying parrot game</a></li>
+                <li><span>Project 8</span><br /><a class="project" href="https://gohighlevel-app-kjbeiifg48.streamlit.app/">AI Powered Content and Image Generator</a></li>
+                <li><span>Project 9</span><br /><a class="project" href="https://moxie-app-tbcwjstpxa.streamlit.app/">AI Powered Form</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------------services-------------------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div class="specific-service">
+            <i class="fa-solid fa-x close"></i>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p class="specific_services_paragraph">As a highly skilled web developer, I possess a wide range of technical expertise and a deep understanding of the intricacies of web development. Here are some of the key skills I bring to the table</p>
+            <a class="more-information" href="#">Learn more</a>
+          </div>
+
+          <div class="specific-service">
+            <i class="fa-solid fa-x close"></i>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p class="specific_services_paragraph">
+              Muhammad Abdullahi, a UI/UX designer, blends creativity, tech expertise, and user-centered design for exceptional projects. With an eye for aesthetics and user behavior, he excels in crafting intuitive digital experiences. Notable UI/UX design skills:
+            </p>
+            <a class="more-information" href="#">Learn more</a>
+          </div>
+
+          <div class="specific-service">
+            <i class="fa-solid fa-x close"></i>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p class="specific_services_paragraph">
+              I possess a rare combination of creativity, technical expertise, and user-centric design knowledge. With a fervor for crafting exceptional mobile experiences, I offer unique skills that differentiate me in the field. Choose me for your app design requirements to
+              create a standout, audience-engaging app. Contact me now to discuss and bring your vision to life.
+            </p>
+            <a class="more-information" href="#">Learn more</a>
+          </div>
+
+          <div class="specific-service">
+            <i class="fa-solid fa-x close"></i>
+            <i class="fa-solid fa-pen-nib"></i>
+            <h2>Technical content writer</h2>
+            <p class="specific_services_paragraph">
+              As a technical content writer, Muhammad Abdullahi possesses a unique set of skills that make him a valuable asset for clients seeking high-quality, engaging, and informative content. His expertise in the field, coupled with his passion for writing, sets him apart
+              from the competition. Here are some key skills that Muhammad brings to the table
+            </p>
+            <a class="more-information" href="#">Learn more</a>
+          </div>
+
+          <div class="specific-service">
+            <i class="fa-solid fa-x close"></i>
+            <i class="fa-solid fa-robot"></i>
+            <h2>AI Engineer</h2>
+            <p class="specific_services_paragraph">I am a professional AI Engineer that designs, develops, and deploys AI solutions to solve real-world problems. I specialize in machine learning, deep learning, and natural language processing.</p>
+          </div>
+
+          <div class="specific-service">
+            <i class="fa-solid fa-x close"></i>
+            <i class="fa-solid fa-eye-low-vision"></i>
+            <h2>Computer Vision Expert</h2>
+            <p class="specific_services_paragraph">
+              I am a computer vision expert that designs, develops, and deploys computer vision algorithms and systems to extract meaningful insights from visual data. I specialize in object detection, tracking, and segmentation, as well as image classification and retrieval.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------------------portfolio------------------------------------------------ -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/moviesImage.png" alt="Movies Recommender App Screenshot" />
+            <div class="layer">
+              <h3>AI Powered Movie Recommender</h3>
+              <p>A web application that helps users find movies they will enjoy by recommending films based on personalized preferences using intelligent filtering.</p>
+              <a href="https://abdulquddusmuhammad.github.io/movies_recommender/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/content-generator-image.png" alt="" />
+            <div class="layer">
+              <h3>AI Powered Content And Image Generator</h3>
+              <p>a web application that utilizes advanced AI algorithms to generate high-quality content and images based on user input.</p>
+              <a href="https://gohighlevel-app-kjbeiifg48.streamlit.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/form-generator-image.png" alt="" />
+            <div class="layer">
+              <h3>AI Powered Form</h3>
+              <p>a web application that utilizes advanced AI algorithms to generate high-quality content and images based on user input.</p>
+              <a href="https://moxie-app-tbcwjstpxa.streamlit.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work hidden show">
+            <img src="images/chess2.png" alt="" />
+            <div class="layer">
+              <h3>Chess App</h3>
+              <p>a captivating and interactive web application designed to bring the classic game of chess to life in the digital realm!</p>
+              <a href="https://mrwholesome01.github.io/Muhammads-Chess-game/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work hidden show">
+            <img src="images/parrot game.jpg" alt="" />
+            <div class="layer">
+              <h3>Flying Game</h3>
+              <p>an exciting and whimsical game that will take you on a thrilling adventure through the skies!</p>
+              <a href="https://mrwholesome01.github.io/Muhammads-parrot-game/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work hidden show">
+            <img src="images/work-4.jpg" alt="" />
+            <div class="layer">
+              <h3>My Personal blogging Website</h3>
+              <p>Engaging tech articles, product reviews, coding insights, and trend updates for tech enthusiasts of all levels.</p>
+              <a href="https://abduldattijo.contently.com/?public_only=true"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <button href="#" class="btn">See more</button>
+      </div>
+    </div>
+
+    <!-- -------------------------------------contacts------------------------------------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> contact me at abduldattijo1@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> phone no. 09024624997</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="./senior_ai_cv (2)-2.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="What is your name" />
+              <input type="email" name="Email" placeholder="What is your Email" required />
+              <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="confirmation"></span>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright @ <span>Abdatenterprise</span></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+    <script src="script3.js"></script>
+    <script src="script4.js"></script>
+    <script src="https://kit.fontawesome.com/4121ffb806.js" crossorigin="anonymous"></script>
+  </body>
+</html>
