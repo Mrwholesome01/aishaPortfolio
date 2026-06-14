@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { Facebook, Instagram, Twitter, Linkedin, Github } from "lucide-react";
 import { gsap } from "gsap";
-import myCV from "../assets/New Imported Images/senior_ai_cv (2)-2.pdf";
+import myCV from "../assets/projects/senior_ai_cv (2).pdf";
 
 const Footer = () => {
   const ref = useRef();
