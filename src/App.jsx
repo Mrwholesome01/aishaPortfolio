@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Navbar from "./sections/Navbar";
 import Hero from "./component/Hero";
-import heroImg from "./assets/images/dattijo1.png";
+import heroImg from "./assets/images/aisha11 - Copy zz.png";
 import About from "./component/About";
 import Skills from "./component/Skills";
 import Services from "./component/Services";

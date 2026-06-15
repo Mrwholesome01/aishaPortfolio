@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import userImage from "../assets//images/dattijo2.png";
+import userImage from "../assets//images/aisha2.jpeg";
 import { gsap } from "gsap";
 import { Facebook, Instagram, Twitter, Linkedin, Github } from "lucide-react";
 
@@ -73,12 +73,12 @@ const About = () => {
       </div>
       <div className="rightside flex flex-col justify-center translate-x-[400px] opacity-0">
         <h1 className="lg:text-6xl text-[8vw] font-semibold mb-3.5">
-          About Muhammad
+          About Aisha
         </h1>
         <p className="lg:text-[1.3vw] text-[3vw]">
-          Muhammad Abdullahi is a multi-talented professional in the field of
-          web development, technical content writing, and entrepreneurship. With
-          a passion for creating innovative digital solutions, Muhammad has
+          Aisha Abdullahi is a multi-talented professional in the field of web
+          development, technical content writing, and entrepreneurship. With a
+          passion for creating innovative digital solutions, Aisha has
           established himself as a skilled web developer, proficient in various
           programming languages and frameworks.
         </p>

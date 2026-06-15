@@ -107,7 +107,7 @@ const Footer = () => {
           <p className="mb-2 lg:text-[1.4vw] text-[2vw]">
             LinkedIn:{" "}
             <a href="" className="text-[#ff004f]">
-              Muhammad@linked
+              Aisha@linked
             </a>
           </p>
         </div>
@@ -130,7 +130,7 @@ const Footer = () => {
         </div>
         <a
           href={myCV}
-          download={"Muhammad Abdullahi CV"}
+          download={"Aisha Abdullahi CV"}
           target="_blank"
           rel="noopener noreferrer"
           className="bg-[#ff004f] rounded-[2rem] md:w-[40%] md:h-[10vh] h-[5vh] flex items-center justify-center text-white font-bold md:text-[1.5vw] text-[3vw] hover:bg-[#ff004f] transition-colors duration-300 mt-8"
@@ -139,7 +139,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="w-full h-[10vh] flex justify-center items-center border-t border-gray-600">
-        <p className="text-gray-500">© 2024 Muhammad. All rights reserved.</p>
+        <p className="text-gray-500">© 2024 Aisha. All rights reserved.</p>
       </div>
     </div>
   );

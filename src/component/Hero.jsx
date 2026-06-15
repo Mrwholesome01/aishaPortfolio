@@ -20,9 +20,8 @@ const Hero = () => {
             Expert
           </span>{" "}
           <br />
-          Hello I am <span className="text-[#ff004f]">
-            Muhammad
-          </span> <br /> from Nigeria
+          Hello I am <span className="text-[#ff004f]">Aisha</span> <br /> from
+          Nigeria
         </p>
       </div>
     </div>

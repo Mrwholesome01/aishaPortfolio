@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "../assets/images/dattijoLogoOriginal.png";
+import logo from "../assets/images/aishaLogo.png";
 import { Menu, X } from "lucide-react";
 import { gsap } from "gsap";
 
