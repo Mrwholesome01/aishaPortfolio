@@ -97,8 +97,11 @@ const Footer = () => {
           </h2>
           <p className="mb-2 lg:text-[1.4vw] text-[2vw]">
             Email:{" "}
-            <a href="mailto:abduldattijo1@gmail.com" className="text-[#ff004f]">
-              abduldattijo1@gmail.com
+            <a
+              href="mailto:Aishazakaridattijo@gmail.com"
+              className="text-[#ff004f]"
+            >
+              Aishazakaridattijo@gmail.com
             </a>
           </p>
           <p className="mb-2 lg:text-[1.4vw] text-[2vw]">
