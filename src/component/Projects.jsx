@@ -68,14 +68,6 @@ const Projects = () => {
       link: "https://mrwholesome01.github.io/Muhammads-parrot-game/",
     },
     {
-      title: "My Personal blogging Website",
-      image: contently,
-      // function: "Real-time IP geolocation and network lookup",
-      description:
-        "Engaging tech articles, product reviews, coding insights, and trend updates for tech enthusiasts of all levels.",
-      link: "https://abduldattijo.contently.com/?public_only=true",
-    },
-    {
       title: "Chess App",
       image: chess,
       // function: "Interactive ticket creation for a developer conference",
